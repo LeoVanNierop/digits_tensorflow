@@ -1,6 +1,10 @@
 # digits_tensorflow
-fully connected and convolutional neural networks for the mnist digit recognizer
-
+Fully connected and convolutional neural networks for the mnist digit recognizer
+Data is from Kaggle.com
+Results for the convolutional network as it is in the code right now, with 
+10 epochs of training, is 97.4 % on the Kaggle test set. On the held-out test
+set in the code, the accuracy was 96.7 %. Given that the Kaggle test set is larger,
+it probably gives a better estimate. 
 
 This repository depends on Scikit-Learn, Tensorflow, Pandas and Numpy. Usage
 of these libraries is governed by their respective licences.
